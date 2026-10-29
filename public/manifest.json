@@ -1,0 +1,64 @@
+{
+  "id": "/",
+  "name": "ANATECH MARKET Uganda",
+  "short_name": "ANATECH",
+  "description": "Uganda & East Africa's trusted local marketplace by ANATECH UG. Buy and sell with local UGX pricing, offline search, and direct chat.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A192F",
+  "theme_color": "#06B6D4",
+  "lang": "en-UG",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["shopping", "business", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Post Listing",
+      "short_name": "Sell",
+      "description": "Create a new product listing on ANATECH MARKET",
+      "url": "/?action=sell",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Messages & Offers",
+      "short_name": "Messages",
+      "description": "View buyer chats and price offers",
+      "url": "/?tab=messages",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ug.anatech.market",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:AB:CC:35:E5:A9:6E:9B:F7:8E:22:90:5E:27:AE:34:BC:07:07:3E:CF:4F:92:DF:D3:95:68"
+      ]
+    }
+  }
+]

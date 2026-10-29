@@ -1,0 +1,5 @@
+{
+  "summary":  "Detailed diagnostics and resolution report explaining why camera and photo access failed on real Android devices (file size rejection, file chooser camera target URI, StrictMode FileUriExposedException, and keystore signature mismatch), and how APK v1.3.0 resolves them all.",
+  "updatedAt":  "2026-10-20T11:38:33.542725406Z",
+  "userFacing":  true
+}

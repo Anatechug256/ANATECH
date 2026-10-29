@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F"/>
+      <stop offset="100%" stop-color="#020C1B"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect width="496" height="496" x="8" y="8" rx="104" fill="none" stroke="#22D3EE" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Modern Geometric Shield Base -->
+  <path d="M256 72 L388 128 C388 276 256 392 256 424 C256 392 124 276 124 128 Z" fill="url(#cyanGrad)" fill-opacity="0.15" stroke="url(#cyanGrad)" stroke-width="12" stroke-linejoin="round" />
+  
+  <!-- Central Marketplace Node & "A" Shape -->
+  <polygon points="256,128 344,300 296,300 256,216 216,300 168,300" fill="url(#cyanGrad)" />
+  
+  <!-- Crossbar with Gold Trust Star -->
+  <rect x="204" y="272" width="104" height="16" rx="8" fill="url(#goldGrad)" />
+  
+  <!-- Verified Check / Star emblem -->
+  <circle cx="256" cy="356" r="28" fill="url(#goldGrad)" />
+  <path d="M246 356 L253 363 L268 348" fill="none" stroke="#0A192F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

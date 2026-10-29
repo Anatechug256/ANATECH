@@ -1,0 +1,6 @@
+{
+  "name": "ANATECH MARKET",
+  "description": "Uganda & East Africa's trusted local marketplace by ANATECH UG. Buy and sell phones, vehicles, farm produce, property, and services with local UGX pricing.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

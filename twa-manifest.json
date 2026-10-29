@@ -1,0 +1,56 @@
+{
+  "packageId": "ug.anatech.market",
+  "host": "ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app",
+  "name": "ANATECH MARKET Uganda",
+  "launcherName": "ANATECH",
+  "display": "standalone",
+  "themeColor": "#06B6D4",
+  "themeColorDark": "#0A192F",
+  "navigationColor": "#0A192F",
+  "navigationColorDark": "#0A192F",
+  "navigationDividerColor": "#0891B2",
+  "navigationDividerColorDark": "#0891B2",
+  "backgroundColor": "#0A192F",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/icon-512.png",
+  "maskableIconUrl": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/icon-maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionCode": 1,
+  "appVersionName": "1.0.0",
+  "shortcuts": [
+    {
+      "name": "Post Listing",
+      "shortName": "Sell",
+      "url": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/?action=sell",
+      "chosenIconUrl": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/icon-192.png"
+    },
+    {
+      "name": "Messages & Offers",
+      "shortName": "Messages",
+      "url": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/?tab=messages",
+      "chosenIconUrl": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/icon-192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://ais-pre-5fon6ool6yd6xaiq4plbnm-14220259642.europe-west1.run.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false
+}
